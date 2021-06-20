@@ -26,8 +26,8 @@ public class Refactoring {
         }
     }
 
-    public static double calcBruttoNetto(double z) {
-        return z / TAX;
+    public static double calcBruttoNetto(double brutto) {
+        return brutto / TAX;
 
     }
 
